@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="10.265218">
+<testcase classname="Login to Guru99 website" name="User should be able to login to Guru99 website" time="10.265218">
+<system-out><![CDATA[Given User is on Guru99Login page...........................................passed
+When user enters uname "mgr123" and password "mgr!23".......................passed
+And user clicks on login button of Guru99Page...............................passed
+Then HomePage gets opened...................................................passed
+Then click on InsuranceProject link.........................................passed
+Then close the browser......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

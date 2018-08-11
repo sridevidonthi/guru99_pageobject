@@ -1,0 +1,138 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 207060,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "User should be able to login to Guru99 website",
+        "description": "",
+        "id": "login-to-guru99-website;user-should-be-able-to-login-to-guru99-website",
+        "after": [
+          {
+            "result": {
+              "duration": 105761,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6994811913,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Guru99Login page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "99",
+                  "offset": 15
+                }
+              ],
+              "location": "UIStepDef.user_is_on_Guru_Login_page(int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 304166222,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters uname \"mgr123\" and password \"mgr!23\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mgr123",
+                  "offset": 19
+                },
+                {
+                  "val": "mgr!23",
+                  "offset": 41
+                }
+              ],
+              "location": "UIStepDef.user_enters_uname_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1079112304,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on login button of Guru99Page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "99",
+                  "offset": 35
+                }
+              ],
+              "location": "UIStepDef.user_clicks_on_login_button_of_Guru_Page(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 77701266,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "HomePage gets opened",
+            "match": {
+              "location": "UIStepDef.homepage_gets_opened()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1637574228,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on InsuranceProject link",
+            "match": {
+              "location": "UIStepDef.click_on_InsuranceProject_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 171539331,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "close the browser",
+            "match": {
+              "location": "UIStepDef.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login to Guru99 website",
+    "description": "",
+    "id": "login-to-guru99-website",
+    "keyword": "Feature",
+    "uri": "features/LoginGuru99/Login_to_Guru99website.feature"
+  }
+]
